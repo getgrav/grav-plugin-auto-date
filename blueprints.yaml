@@ -11,6 +11,9 @@ bugs: https://github.com/team-grav/grav-plugin-auto-date/issues
 docs: https://github.com/team-grav/grav-plugin-auto-date/blob/develop/README.md
 license: MIT
 
+dependencies:
+    - { name: admin, version: '>=1.2.3' }
+
 form:
   validation: strict
   fields:
@@ -24,7 +27,3 @@ form:
         0: Disabled
       validate:
         type: bool
-    text_var:
-      type: text
-      label: Text Variable
-      help: Text to add to the top of a page
