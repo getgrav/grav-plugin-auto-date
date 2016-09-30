@@ -1,7 +1,7 @@
 name: Auto Date
 version: 1.0.0
 description: Automatically adds date to frontmatter when creating a new page via Grav Admin plugin
-icon: plug
+icon: clock-o
 author:
   name: Team Grav
   email: devs@getgrav.org
