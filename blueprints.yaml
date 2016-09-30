@@ -1,0 +1,29 @@
+name: Auto Date
+version: 1.0.0
+description: Automatically adds date to frontmatter when creating a new page via Grav Admin plugin
+icon: plug
+author:
+  name: Team Grav
+  email: devs@getgrav.org
+homepage: https://github.com/team-grav/grav-plugin-auto-date
+keywords: plugin, auto-date, date, frontmatter
+bugs: https://github.com/team-grav/grav-plugin-auto-date/issues
+docs: https://github.com/team-grav/grav-plugin-auto-date/blob/develop/README.md
+license: MIT
+
+dependencies:
+    - { name: admin, version: '>=1.2.3' }
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
