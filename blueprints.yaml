@@ -5,10 +5,10 @@ icon: clock-o
 author:
   name: Team Grav
   email: devs@getgrav.org
-homepage: https://github.com/team-grav/grav-plugin-auto-date
+homepage: https://github.com/getgrav/grav-plugin-auto-date
 keywords: plugin, auto-date, date, frontmatter
-bugs: https://github.com/team-grav/grav-plugin-auto-date/issues
-docs: https://github.com/team-grav/grav-plugin-auto-date/blob/develop/README.md
+bugs: https://github.com/getgrav/grav-plugin-auto-date/issues
+docs: https://github.com/getgrav/grav-plugin-auto-date/blob/develop/README.md
 license: MIT
 
 dependencies:
