@@ -1,6 +1,6 @@
 # Auto Date Plugin
 
-The **Auto Date** Plugin is designed for [Grav CMS](http://github.com/getgrav/grav) and automatically adds the current date to frontmatter when createing a new page via the Admin plugin. 
+The **Auto Date** Plugin is designed for [Grav CMS](http://github.com/getgrav/grav) and automatically adds the current date to frontmatter when creating a new page via the Admin plugin. 
 
 ## Description
 
