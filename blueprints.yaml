@@ -1,5 +1,5 @@
 name: Auto Date
-version: 1.0.2
+version: 1.0.3
 description: Automatically adds date to frontmatter when creating a new page via Grav Admin plugin
 icon: clock-o
 author:
@@ -28,3 +28,18 @@ form:
         0: Disabled
       validate:
         type: bool
+    enabled_updates:
+      type: toggle
+      label: Also track page updates
+      highlight: 1
+      default: 0
+      options:
+        1: Yes
+        0: No
+      validate:
+        type: bool
+    update_field:
+      type: text
+      size: small
+      label: Name of update date field
+      default: modified_date
