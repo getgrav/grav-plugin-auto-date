@@ -34,7 +34,7 @@ class AutoDatePlugin extends Plugin
     {
         $header = $event['header'];
         if (!isset($header['date'])) {
-            $header['date'] = date($this->grav['config']->get('system.pages.dateformat.default', 'H:i d-m-Y'));
+            $header['date'] = date($this->grav['config']->get('system.pages.dateformat.default', 'H:i:s d-m-Y'));
             $event['header'] = $header;
         }
     }
