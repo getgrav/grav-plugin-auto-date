@@ -5,7 +5,7 @@ icon: clock-o
 author:
   name: Team Grav
   email: devs@getgrav.org
-  url: http://getgrav.org
+  url: https://getgrav.org
 homepage: https://github.com/getgrav/grav-plugin-auto-date
 keywords: plugin, auto-date, date, frontmatter
 bugs: https://github.com/getgrav/grav-plugin-auto-date/issues
